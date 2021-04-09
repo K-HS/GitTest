@@ -1,4 +1,10 @@
+<<<<<<< .merge_file_a10668
 1234tetetw testtest
 
 
 werywyer
+=======
+1234tetetw testtest 
+wetw
+wetet
+>>>>>>> .merge_file_a03512
