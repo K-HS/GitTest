@@ -1,6 +1,4 @@
-package com.innocore.template;
 
-<<<<<<< HEAD
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -41,6 +39,10 @@ public class SingleModuleApplication {
 		SpringApplication.run(SingleModuleApplication.class, args);
 	}
 	
+	public static void test() {
+		
+	}
+
 	public static void test2() {
 		
 	}
@@ -49,7 +51,3 @@ public class SingleModuleApplication {
 		
 	}
 }
-=======
-ABCABCABC!!!!+
-BCBDEEGEG@###
->>>>>>> origin/test11
