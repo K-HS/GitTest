@@ -1,3 +1,50 @@
-awetwet
+package com.innocore.template;
 
-ABCABCABC!!!!
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+/**
+ * 媛쒕컻�솚寃� �몴以��솕 Template Project
+ * <br>
+ * <pre>
+ * Project Library
+ * 1. Java 					: 1.8
+ * 2. Spring Boot Framework : 2.2.4
+ * 3. Mybatis 				: 2.1.1
+ * 4. Flyway 				: 6.0.8
+ * 5. Swagger 				: 2.9.2
+ * 6. Lombok 				: 1.18
+ * 7. Log4j2 				: 2.2.4
+ * 8. junit 				: 5.5.2
+ * 9. jackson 				: 2.10.2
+ * 
+ * Swagger URL  : http://localhost:8080/swagger-ui.html#  
+ * Actuator URL : http://localhost:8080/actuator
+ *  
+ * </pre>
+ * @author ssw
+ *
+ */
+@EnableSwagger2
+@SpringBootApplication
+public class SingleModuleApplication {
+
+	/**
+	 * Spring Boot Main Method
+	 * 
+	 * @param args Arguemnt
+	 */
+	public static void main(String[] args) {
+		SpringApplication.run(SingleModuleApplication.class, args);
+	}
+	
+	public static void test2() {
+		
+	}
+
+	public static void test3() {
+		
+	}
+}
